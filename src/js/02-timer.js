@@ -7,6 +7,7 @@ const daysText = document.querySelector('[data-days]');
 const hoursText = document.querySelector('[data-hours]');
 const minutesText = document.querySelector('[data-minutes]');
 const secondsText = document.querySelector('[data-seconds]');
+let intervalId = null;
 
 let currentTime;
 const options = {
